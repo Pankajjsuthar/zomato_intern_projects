@@ -4,7 +4,7 @@ import Landing from "./components/Landing";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+require('dotenv').config();
 function App() {
 
   return (

@@ -13,7 +13,6 @@ const axios = require("axios");
 const { authenticatejwt } = require("./middleware/auth.js");
 app.use(cors());
 app.use(express.json());
-
 const { User } = require("./models/User.jsx");
 const { secretKey } = require("./middleware/auth.js");
 const { isAsyncFunction } = require("util/types");
